@@ -12,7 +12,7 @@ import uz.ttj.springbootencodedecodedemo.service.CharsetService;
 
 import java.io.UnsupportedEncodingException;
 
-@CrossOrigin(origins = {"http://localhost:8080/", "http://localhost:8081/"})
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api")
 public class EncodeDecodeController {
